@@ -34,6 +34,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 $ yarn add @ngrx/{store,store-devtools,entity,effects}
 ```
 
+## Create Root Store Module
+
+```shell script
+$ ng g module root-store --flat false --module app.module.ts
+$ ng g interface root-store/root-state
+```
 
 ## References
 
